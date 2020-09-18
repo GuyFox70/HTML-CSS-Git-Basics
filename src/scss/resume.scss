@@ -1,0 +1,50 @@
+.middle__resume {
+  padding: 7% 10% 4% 9%;
+  grid-area: resume;
+}
+
+.middle__info:not(:last-child) {
+  margin-bottom: 5%;
+}
+
+.middle__info > h2 {
+  color: #7d64a7;
+
+  font-family: 'Lato-Bold';
+  font-size: 58px;
+  line-height: 47px;
+}
+
+.middle__info > h2::before {
+  content: "";
+  display: inline-block;
+  width: 1vw;
+  height: 1vw;
+  background: #7d64a7;
+  vertical-align: middle;
+  margin: 0 25px 10px 0;
+}
+
+.middle__info > p {
+  padding: 0;
+  margin: 2% 0 0 4%;
+  color: #1f2222;
+
+  font-family: 'Roboto-Regular';
+  font-size: 42px;
+  line-height: 58px;
+}
+
+.middle__info .middle__name-educational-institution,
+.middle__info .middle__period {
+  margin: 0 0 0 4%;
+}
+
+.middle__info .middle__name-department,
+.middle__info .middle__period {
+  font-size: 30px;
+}
+
+.middle__info .middle__name-educational-institution {
+  font-weight: bold;
+}

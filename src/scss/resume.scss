@@ -48,3 +48,28 @@
 .middle__info .middle__name-educational-institution {
   font-weight: bold;
 }
+
+.middle__snake,
+.middle__en-level {
+  display: block;
+  text-decoration: none;
+  padding: 0;
+  margin: 4% 0 0 4%;
+  color: #1f2222;
+
+  font-family: 'Roboto-Regular';
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 58px;
+}
+
+.middle__snake::before {
+  content: "";
+  display: inline-block;
+  width: 1vw;
+  height: 1vw;
+  background: black;
+  vertical-align: middle;
+  margin: 0 25px 2px 0;
+  border-radius: 50%;
+}

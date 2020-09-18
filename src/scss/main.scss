@@ -1,0 +1,13 @@
+.middle {
+  display: grid;
+  grid-template-areas: "feature resume";
+  grid-template-columns: 35% 65%;
+}
+
+.middle__feature {
+  grid-area: feature;
+}
+
+.middle__resume {
+  grid-area: resume;
+}

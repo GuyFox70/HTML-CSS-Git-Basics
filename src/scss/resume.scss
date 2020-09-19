@@ -11,8 +11,24 @@
   color: #7d64a7;
 
   font-family: 'Lato-Bold';
-  font-size: 58px;
-  line-height: 47px;
+  font-size: calc(18px + 1.5vw);
+  line-height: calc(18px + 1.3vw);
+
+  @media screen and (max-width: 1728px) {
+    font-size: calc(18px + 1.2vw);
+  }
+
+  @media screen and (max-width: 1472px) {
+    font-size: calc(18px + 1vw);
+  }
+
+  @media screen and (max-width: 1282px) {
+    font-size: calc(18px + .8vw);
+  }
+
+  @media screen and (max-width: 1174px) {
+    font-size: calc(18px + .6vw);
+  }
 }
 
 .middle__info > h2::before {
@@ -23,6 +39,22 @@
   background: #7d64a7;
   vertical-align: middle;
   margin: 0 25px 10px 0;
+
+  @media screen and (max-width: 1728px) {
+    margin: 0 19px 10px 0;
+  }
+
+  @media screen and (max-width: 1472px) {
+    margin: 0 15px 7px 0;
+  }
+
+  @media screen and (max-width: 1282px) {
+    margin: 0 12px 3px 0;
+  }
+
+  @media screen and (max-width: 1174px) {
+    margin: 0 10px 3px 0;
+  }
 }
 
 .middle__info > p {
@@ -31,8 +63,32 @@
   color: #1f2222;
 
   font-family: 'Roboto-Regular';
-  font-size: 42px;
-  line-height: 58px;
+  font-size: calc(18px + 1vw);
+  line-height: calc(18px + 1.6vw);
+
+  @media screen and (max-width: 1728px) {
+    font-size: calc(18px + .8vw);
+  }
+
+  @media screen and (max-width: 1472px) {
+    font-size: calc(18px + .6vw);
+  }
+
+  @media screen and (max-width: 1282px) {
+    font-size: calc(18px + .4vw);
+  }
+
+  @media screen and (max-width: 1282px) {
+    font-size: calc(18px + .1vw);
+  }
+
+  @media screen and (max-width: 780px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 15px;
+  }
 }
 
 .middle__info .middle__name-educational-institution,
@@ -42,7 +98,15 @@
 
 .middle__info .middle__name-department,
 .middle__info .middle__period {
-  font-size: 30px;
+  font-size: calc(18px + .4vw);
+
+  @media screen and (max-width: 780px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 430px) {
+    font-size: 15px;
+  }
 }
 
 .middle__info .middle__name-educational-institution {
@@ -56,11 +120,37 @@
   padding: 0;
   margin: 4% 0 0 4%;
   color: #1f2222;
+  transition: color .3s linear;
 
   font-family: 'Roboto-Regular';
   font-weight: 900;
-  font-size: 42px;
-  line-height: 58px;
+  font-size: calc(18px + 1vw);
+  line-height:calc(18px + 1.6vw);
+
+  @media screen and (max-width: 1728px) {
+    font-size: calc(18px + .8vw);
+  }
+
+  @media screen and (max-width: 1472px) {
+    font-size: calc(18px + .6vw);
+  }
+
+  @media screen and (max-width: 1282px) {
+    font-size: calc(18px + .4vw);
+  }
+
+  @media screen and (max-width: 1282px) {
+    font-size: calc(18px + .1vw);
+  }
+
+  @media screen and (max-width: 580px) {
+    font-size: 15px;
+  }
+}
+
+.middle__snake:hover {
+  color: #7d64a7;
+  transition: color .3s linear;
 }
 
 .middle__snake::before {
@@ -72,4 +162,26 @@
   vertical-align: middle;
   margin: 0 25px 2px 0;
   border-radius: 50%;
+  transition: background .3s linear;
+
+  @media screen and (max-width: 1728px) {
+    margin: 0 19px 2px 0;
+  }
+
+  @media screen and (max-width: 1472px) {
+    margin: 0 15px 2px 0;
+  }
+
+  @media screen and (max-width: 1282px) {
+    margin: 0 12px 2px 0;
+  }
+
+  @media screen and (max-width: 1174px) {
+    margin: 0 10px 2px 0;
+  }
+}
+
+.middle__snake:hover::before {
+  background: #7d64a7;
+  transition: background .3s linear;
 }
